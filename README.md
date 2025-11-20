@@ -10,7 +10,7 @@
 - **Custom Keymaps**: Optimized layouts with advanced features
 - **RGB Lighting**: backlighting support
 - **Bluetooth**: Wireless support for compatible controllers
-- **zzmk studio**: firmware support for ZMK studio for easy keymap editing
+- **zmk studio**: firmware support for ZMK studio for easy keymap editing
 
 ## 📖 Documentation
 
