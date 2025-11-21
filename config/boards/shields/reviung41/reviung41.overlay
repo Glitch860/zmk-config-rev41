@@ -5,18 +5,15 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include "reviung41.dtsi"
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
-        zmk,backlight = &backlight;
+        zmk,physical-layout = &physical_layout0;
+
+        // Other Chosen Items
     };
-    backlight: pwmleds {
-        compatible = "pwm-leds";
-        pwm_led_0 {
-            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
-        };
+
     };
 
     default_transform: keymap_transform_0 {
